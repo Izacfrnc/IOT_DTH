@@ -1,0 +1,25 @@
+{
+  "name": "iot-dht11",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000O\u0000T\u0000_\u0000D\u0000T\u0000H\u0000\r\u0000 \u0000# IOT_DTH # IOT_DTH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izacfrnc/IOT_DTH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izacfrnc/IOT_DTH/issues"
+  },
+  "homepage": "https://github.com/Izacfrnc/IOT_DTH#readme",
+  "dependencies": {
+    "@serialport/parser-readline": "^13.0.0",
+    "mqtt": "^5.14.1",
+    "serialport": "^13.0.0"
+  }
+}
