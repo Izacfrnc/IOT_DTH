@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DashBord IOT</title>
+    <title>Dashboard IoT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mqtt/dist/mqtt.min.js"></script>
 </head>
 <body>
-    <h2>Monitoramento DHT11</h2>
- <canvas id="grafico" width="400" height="200"></canvas>
+    <main>
+        <header>
+            <h1>Dashboard IoT</h1>
+            <h2>Monitoramento DHT11</h2>
+        </header>
 
- <script>
-const client = mqtt.connect("wss:/broker.hivemq.com:8884/mqtt");
+        <section class="grafico-container">
+            <canvas id="grafico" width="400" height="200"></canvas>
+        </section>
+    </main>
 
-const label = [];
-const tempData = [];
-const humData = [];
-
-
- </script>
-
+    <script src="script.js" defer></script>
 </body>
 </html>
